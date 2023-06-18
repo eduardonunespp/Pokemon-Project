@@ -1,0 +1,111 @@
+ul {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0;
+}
+.type-list {
+  padding-right: 30px;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 4.5rem;
+}
+.type-list li img {
+  width: 1rem;
+  height: 1rem;
+}
+.type-list li {
+  filter: grayscale(1);
+}
+.type-list li:hover,
+.type-list li.ativo {
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: ease-in-out 0.3s;
+}
+
+.type-list li.all:hover span,
+.type-list li.all.ativo span {
+  color: #3e75c3;
+}
+.type-list li.grass:hover span,
+.type-list li.grass.ativo span {
+  color: var(--type-grass);
+}
+.type-list li.ghost:hover span,
+.type-list li.ghost.ativo span {
+  color: var(--type-ghost);
+}
+.type-list li.rock:hover span,
+.type-list li.rock.ativo span {
+  color: var(--type-rock);
+}
+.type-list li.dragon:hover span,
+.type-list li.dragon.ativo span {
+  color: var(--type-dragon);
+}
+.type-list li.steel:hover span,
+.type-list li.steel.ativo span {
+  color: var(--type-steel);
+}
+.type-list li.eletric:hover span,
+.type-list li.eletric.ativo span {
+  color: var(--type-electric);
+}
+.type-list li.water:hover span,
+.type-list li.water.ativo span {
+  color: var(--type-water);
+}
+.type-list li.fire:hover span,
+.type-list li.fire.ativo span {
+  color: var(--type-fire);
+}
+.type-list li.bug:hover span,
+.type-list li.bug.ativo span {
+  color: var(--type-bug);
+}
+.type-list li.dark:hover span,
+.type-list li.dark.ativo span {
+  color: var(--type-dark);
+}
+.type-list li.fairy:hover span,
+.type-list li.fairy.ativo span {
+  color: var(--type-fairy);
+}
+.type-list li.flying:hover span,
+.type-list li.flying.ativo span {
+  color: var(--type-flying);
+}
+.type-list li.fighting:hover span,
+.type-list li.fighting.ativo span {
+  color: var(--type-fighting);
+}
+.type-list li.normal:hover span,
+.type-list li.normal.ativo span {
+  color: var(--type-normal);
+}
+.type-list li.poison:hover span,
+.type-list li.poison.ativo span {
+  color: var(--type-poison);
+}
+.type-list li.ice:hover span,
+.type-list li.ice.ativo span {
+  color: var(--type-ice);
+}
+.type-list li.ground:hover span,
+.type-list li.ground.ativo span {
+  color: var(--type-ground);
+}
+.type-list li.psychic:hover span,
+.type-list li.psychic.ativo span {
+  color: var(--type-psychic);
+}
+.type-list li.ground:hover span,
+.type-list li.ground.ativo span {
+  color: var(--type-ground);
+}
+.type-list li span {
+  font-size: 1rem;
+  margin-left: 0.375rem;
+}

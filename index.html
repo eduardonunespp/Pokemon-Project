@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,  initial-scale=1.02, minimum-scale=1.02"
+    />
+    <title>PokeProject</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icon-pokeball-yellow.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bodywrapper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide top-section">
+            <div class="header">
+              <a href="">
+                <img src="assets/logo.svg" alt="" />
+              </a>
+              <h5>Poliwag ➡ Poliwrath</h5>
+            </div>
+            <div class="head">
+              <div class="title-section">
+                <div class="tag-bag">
+                  <div class="img-mask">
+                    <img src="assets/icon-pokeball.svg" alt="" />
+                  </div>
+                  <span>pokedex</span>
+                </div>
+                <h1 class="black">Who is that Pokémon?</h1>
+                <h3>
+                  The perfect guide for those who want to hunt Pokémons around
+                  the world
+                </h3>
+              </div>
+            </div>
+            <div class="pokeball-container">
+              <div class="lighting">
+                <img src="assets/lighting.svg" alt="" />
+              </div>
+              <div class="pokeball">
+                <img src="assets/pokeball-red.png" alt="" />
+              </div>
+            </div>
+
+            <div class="down-pointer">
+              <h5>explore</h5>
+              <img src="assets/arrow-down-red.svg" alt="" />
+            </div>
+            <section class="search-container">
+              <div class="search-div">
+                <h2>Select your pokemon</h2>
+                <form class="search" onsubmit="return false" spellcheck="false">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Search Pokemon"
+                    maxlength="12"
+                  />
+                  <button class="img-mask">
+                    <img src="assets/icon-search.svg" alt="search" />
+                  </button>
+                </form>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide top-section red">
+            <div class="header">
+              <a href="">
+                <img src="assets/logo.svg" alt="" />
+              </a>
+              <h5>Poliwag ➡ Poliwrath</h5>
+            </div>
+            <div class="head">
+              <div class="title-section">
+                <div class="tag-bag yellow">
+                  <div class="img-mask">
+                    <img src="assets/icon-pokeball-yellow.svg" alt="" />
+                  </div>
+                  <span>pokedex</span>
+                </div>
+                <h1 class="red">Catch'em all</h1>
+                <h3>
+                  The perfect guide for those who want to hunt Pokémons around
+                  the world
+                </h3>
+              </div>
+            </div>
+            <div class="pokeball-container ultra">
+              <div class="lighting yellow">
+                <img src="assets/lighting-yellow.svg" alt="" />
+              </div>
+              <div class="pokeball black">
+                <img src="assets/pokeball-black.png" alt="" />
+              </div>
+            </div>
+
+            <div class="down-pointer">
+              <h5>explore</h5>
+              <img src="assets/arrow-down-black.svg" alt="" />
+            </div>
+            <section class="search-container">
+              <div class="search-div">
+                <h2>Select your pokemon</h2>
+                <div class="search">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Search Pokemon"
+                    maxlength="12"
+                  />
+                  <div class="img-mask">
+                    <img src="assets/icon-search.svg" alt="search" />
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="list">
+          <ul class="type-list">
+            <li class="all">
+              <img src="assets/icon-all.svg" /> <span>All</span>
+            </li>
+            <li class="normal">
+              <img src="assets/icon-types/normal.svg" /> <span>Normal</span>
+            </li>
+            <li class="fighting">
+              <img src="assets/icon-types/fighting.svg" /> <span>Fighting</span>
+            </li>
+            <li class="flying">
+              <img src="assets/icon-types/flying.svg" /> <span>Flying</span>
+            </li>
+            <li class="poison">
+              <img src="assets/icon-types/poison.svg" /> <span>Poison</span>
+            </li>
+            <li class="ground">
+              <img src="assets/icon-types/ground.svg" /> <span>Ground</span>
+            </li>
+            <li class="rock">
+              <img src="assets/icon-types/rock.svg " /> <span>Rock </span>
+            </li>
+            <li class="bug">
+              <img src="assets/icon-types/bug.svg " /> <span>Bug </span>
+            </li>
+            <li class="ghost">
+              <img src="assets/icon-types/ghost.svg " /> <span>Ghost </span>
+            </li>
+            <li class="steel">
+              <img src="assets/icon-types/steel.svg " /> <span> Steel </span>
+            </li>
+            <li class="fire">
+              <img src="assets/icon-types/fire.svg " /> <span>Fire </span>
+            </li>
+            <li class="water">
+              <img src="assets/icon-types/water.svg " /> <span>Water </span>
+            </li>
+            <li class="grass" data-value="grass">
+              <img src="assets/icon-types/grass.svg" /> <span>Grass</span>
+            </li>
+            <li class="eletric">
+              <img src="assets/icon-types/electric.svg " />
+              <span>Eletric </span>
+            </li>
+            <li class="psychic">
+              <img src="assets/icon-types/psychic.svg" /> <span>Psychic</span>
+            </li>
+            <li class="ice">
+              <img src="assets/icon-types/ice.svg" /> <span>Ice</span>
+            </li>
+            <li class="dragon">
+              <img src="assets/icon-types/dragon.svg " /> <span>Dragon </span>
+            </li>
+            <li class="dark">
+              <img src="assets/icon-types/dark.svg" /> <span>Dark</span>
+            </li>
+            <li class="fairy">
+              <img src="assets/icon-types/fairy.svg" /> <span>Fairy</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="pokemons-card">
+          <div class="pokeball-icon">
+            <img src="assets/icon-pokeball.svg" alt="" />
+            <h4></h4>
+          </div>
+          <div class="select-input-type">
+            <button class="select-button">
+              <span class="placeholder"> Filter By:</span>
+              <span class="type-selected">All</span>
+              <img
+                src="assets/arrow-down-select.svg"
+                class="arrow-down-select"
+                alt=""
+              />
+            </button>
+            <ul name="type" class="select-type-options">
+              <li class="all active-option-item" data-value="all">
+                <img src="assets/icon-all.svg" /> <span>All</span>
+              </li>
+              <li class="grass" data-value="grass">
+                <img src="assets/icon-types/grass.svg" /> <span>Grass</span>
+              </li>
+              <li class="normal" data-value="normal">
+                <img src="assets/icon-types/normal.svg" /> <span>Normal</span>
+              </li>
+              <li class="fighting" data-value="fighting">
+                <img src="assets/icon-types/fighting.svg" />
+                <span>Fighting</span>
+              </li>
+              <li class="flying" data-value="flying">
+                <img src="assets/icon-types/flying.svg" /> <span>Flying</span>
+              </li>
+              <li class="poison" data-value="poison">
+                <img src="assets/icon-types/poison.svg" /> <span>Poison</span>
+              </li>
+              <li class="ground" data-value="ground">
+                <img src="assets/icon-types/ground.svg" /> <span>Ground</span>
+              </li>
+              <li class="psychic" data-value="psychic">
+                <img src="assets/icon-types/psychic.svg" /> <span>Psychic</span>
+              </li>
+              <li class="ice" data-value="ice">
+                <img src="assets/icon-types/ice.svg" /> <span>Ice</span>
+              </li>
+              <li class="dark" data-value="dark">
+                <img src="assets/icon-types/dark.svg" /> <span>Dark</span>
+              </li>
+              <li class="fairy" data-value="fairy">
+                <img src="assets/icon-types/fairy.svg" /> <span>Fairy</span>
+              </li>
+              <li class="ghost" data-value="ghost">
+                <img src="assets/icon-types/ghost.svg " /> <span>Ghost </span>
+              </li>
+              <li class="stone" data-value="rock">
+                <img src="assets/icon-types/rock.svg " /> <span>Rock </span>
+              </li>
+              <li class="dragon" data-value="dragon">
+                <img src="assets/icon-types/dragon.svg " /> <span>Dragon </span>
+              </li>
+              <li class="steel" data-value="steel">
+                <img src="assets/icon-types/steel.svg " /> <span> Steel </span>
+              </li>
+              <li class="electric" data-value="electric">
+                <img src="assets/icon-types/electric.svg " />
+                <span>Eletric </span>
+              </li>
+              <li class="water" data-value="water">
+                <img src="assets/icon-types/water.svg " /> <span>Water </span>
+              </li>
+              <li class="fire" data-value="fire">
+                <img src="assets/icon-types/fire.svg " /> <span>Fire </span>
+              </li>
+              <li class="bug" data-value="bug">
+                <img src="assets/icon-types/bug.svg " /> <span>Bug </span>
+              </li>
+            </ul>
+          </div>
+          <div class="card-list"></div>
+        </div>
+      </div>
+      <div class="load-more-section">
+        <div class="loadMore">
+          <span> Load More Pokemon </span>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="close">
+          <img src="assets/close.svg" alt="" />
+        </div>
+      </div>
+
+      <footer>
+        <div class="left-footer-part">
+          <h3>Desafio em javascript</h3>
+          <span>Testando e configurando dados de uma API</span>
+        </div>
+        <div class="right-footer-part">
+          <h4>Developed by Poliwag for Poliwags</h4>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/script.js" type="module"></script>
+  </body>
+</html>

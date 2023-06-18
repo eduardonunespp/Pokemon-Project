@@ -1,0 +1,56 @@
+.left-container.grass {
+  background-image: url(./../../assets/bg-types/grass.svg);
+}
+
+.left-container.ghost {
+  background-image: url(./../..//assets/bg-types/ghost.svg);
+}
+.left-container.rock {
+  background-image: url(./../..//assets/bg-types/rock.svg);
+}
+.left-container.dragon {
+  background-image: url(./../..//assets/bg-types/dragon.svg);
+}
+.left-container.steel {
+  background-image: url(./../..//assets/bg-types/steel.svg);
+}
+.left-container.electric {
+  background-image: url(./../..//assets/bg-types/electric.svg);
+}
+.left-container.water {
+  background-image: url(./../..//assets/bg-types/water.svg);
+}
+.left-container.fire {
+  background-image: url(./../..//assets/bg-types/fire.svg);
+}
+.left-container.bug {
+  background-image: url(./../..//assets/bg-types/bug.svg);
+}
+
+.left-container.fairy {
+  background-image: url(./../..//assets/bg-types/fairy.svg);
+}
+.left-container.fighting {
+  background-image: url(./../..//assets/bg-types/fighting.svg);
+}
+.left-container.ground {
+  background-image: url(./../..//assets/bg-types/ground.svg);
+}
+.left-container.ice {
+  background-image: url(./../..//assets/bg-types/ice.svg);
+}
+.left-container.normal {
+  background-image: url(./../..//assets/bg-types/normal.svg);
+}
+.left-container.poison {
+  background-image: url(./../..//assets/bg-types/poison.svg);
+}
+.left-container.psychic {
+  background-image: url(./../..//assets/bg-types/psychic.svg);
+}
+.left-container.flying {
+  background-image: url(./../..//assets/bg-types/flying.svg);
+}
+.left-container.dark {
+  background-image: url(./../..//assets/bg-types/dark.svg);
+}

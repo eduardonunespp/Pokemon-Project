@@ -1,0 +1,19 @@
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #882020;
+  height: 8rem;
+}
+footer .left-footer-part {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.875rem;
+}
+
+footer .right-footer-part {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.875rem;
+}

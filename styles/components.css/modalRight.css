@@ -1,0 +1,56 @@
+@import "./status-modal.css";
+
+.right-container-mask {
+  margin-top: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3.75rem;
+  margin-right: 2rem;
+  margin-top: 2.1875rem;
+  margin-bottom: 1rem;
+}
+.name {
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+}
+.name span {
+  margin-left: 8px;
+  color: var(--gray-400);
+}
+.types-modal {
+  margin-top: 0.625rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.infos {
+  margin-top: 1.5rem;
+  flex-direction: row;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.infos li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.weakness {
+  margin-top: 1.5rem;
+}
+.right-container h4 {
+  color: var(--gray-400);
+  font-weight: bolder;
+}
+.weakness ul {
+  margin-top: 16px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.stats-box {
+  margin-top: 1.5rem;
+}

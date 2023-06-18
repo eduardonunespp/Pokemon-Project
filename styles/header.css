@@ -1,0 +1,96 @@
+.top-section {
+  background-image: url(../assets/bg-dark.svg);
+  margin: 0;
+  width: 100%;
+  height: 994px;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 0;
+}
+.top-section.red {
+  background-color: #882020;
+  background-image: url(../assets/bg-red.svg);
+}
+.header {
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 111px;
+}
+
+.title-section {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokeball-container {
+  z-index: 500;
+  animation: float 5s ease-in-out infinite;
+  pointer-events: none;
+  position: relative;
+  max-height: 160px;
+  height: 100%;
+  width: 100%;
+  margin-top: 123.2px;
+  margin-left: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokeball-container.ultra {
+  margin-top: 110.4px;
+}
+.pokeball.ultra {
+  margin-top: 48px;
+}
+.lighting img {
+  animation: growing 5s ease-in-out infinite;
+  max-width: 170px;
+  max-height: 60px;
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+.lighting.yellow img {
+  margin-bottom: -6.4px;
+}
+.down-pointer {
+  cursor: pointer;
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 2.5rem;
+  transition: 0.4s;
+}
+.down-pointer:hover {
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
+}
+.down-pointer h5 {
+  pointer-events: none;
+  transform: rotate(270deg);
+  margin-bottom: 28.8px;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(-16px);
+  }
+}
+@keyframes growing {
+  0%,
+  100% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}

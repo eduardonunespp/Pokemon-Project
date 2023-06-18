@@ -1,0 +1,16 @@
+.swiper-slide img {
+}
+.swiper-pagination {
+  position: absolute;
+  margin-left: 28.125rem;
+  margin-bottom: 20rem;
+}
+.swiper-pagination-bullet-active[aria-label="Go to slide 2"] {
+  background-color: #242420;
+}
+.swiper-pagination-bullet {
+  background-color: #fffffa;
+}
+.swiper-pagination-bullet-active {
+  background-color: #882020;
+}

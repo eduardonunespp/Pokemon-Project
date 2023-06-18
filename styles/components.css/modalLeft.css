@@ -1,0 +1,39 @@
+@import "./bg-left-modal.css";
+.left-container {
+  margin: 0;
+  width: 11.9375rem;
+}
+.left-container .img-box {
+  display: flex;
+  position: relative;
+  height: 100%;
+  align-items: center;
+  margin-left: 40px;
+}
+.left-container .img-box img {
+  max-height: 12rem;
+  max-width: 12rem;
+  min-height: 8rem;
+}
+.icon-box {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  right: 1rem;
+  top: 0.5rem;
+}
+.icon-mask {
+  position: absolute;
+  background-color: var(--bg-lighter);
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-box img {
+  position: absolute;
+}

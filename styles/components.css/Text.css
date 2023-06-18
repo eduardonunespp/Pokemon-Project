@@ -1,0 +1,19 @@
+h1{
+    font-size: 4rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.125rem;
+}
+span{
+    font-size: 1rem;
+}
+h1.red{
+    color: #DADD59;
+}
+h1.black{
+    color: var(--red);
+}

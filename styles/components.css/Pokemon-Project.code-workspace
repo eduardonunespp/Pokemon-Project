@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Pokemon-Project",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pokemon-Project",
+		"liveServer.settings.port": 5501
+	}
+}

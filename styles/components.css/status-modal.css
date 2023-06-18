@@ -1,0 +1,67 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.single-stats {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+.stats span {
+  width: 4.25rem;
+  align-items: center;
+  flex-direction: row;
+  font-size: 12px;
+}
+.stats-box h4 {
+  margin-bottom: 0.75rem;
+}
+.stats-bar {
+  position: relative;
+  width: 20rem;
+  height: 0.1875rem;
+  background-color: #332d2d;
+  display: flex;
+  gap: 0.25rem;
+}
+.bar {
+  position: absolute;
+  margin: 0;
+  height: 0.1875rem;
+  max-width: 100%;
+  background-color: #882020;
+}
+.bar ul {
+  position: absolute;
+  display: flex;
+  width: 20rem;
+  margin-left: 3.8rem;
+  gap: 3.8rem;
+}
+.bar ul li {
+  position: relative;
+  background-color: var(--bg-color);
+  height: 3px;
+  width: 0.25rem;
+}
+
+.bar.hp {
+  width: 70%;
+}
+.bar.attack {
+  width: 50%;
+}
+.bar.defense {
+  width: 53%;
+}
+.bar.sp-defense {
+  width: 40%;
+}
+.bar.sp-attack {
+  width: 90%;
+}
+.bar.speed {
+  width: 10%;
+}

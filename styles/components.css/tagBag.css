@@ -1,0 +1,35 @@
+.tag-bag{
+    display: flex;
+    background-color: #4A4747;
+    width: 7.5625rem;
+    height: 2.125rem;
+    border-radius: 15.25rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.tag-bag:hover{
+    cursor: default;
+}
+.tag-bag img{
+    width: 1rem;
+    height: 1.5rem;
+}
+.tag-bag span{
+    margin-right: 1rem;
+}
+.tag-bag .img-mask{
+    margin-left: .5rem;
+    margin-bottom: .1rem;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #f33c3c3d;
+    opacity: .8;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7.625rem;
+}
+.tag-bag.yellow .img-mask{
+    background-color: #dbdd593d;
+}

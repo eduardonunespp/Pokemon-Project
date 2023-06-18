@@ -1,0 +1,11 @@
+.load-more-section {
+  margin-top: 4.25rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5.5rem;
+}
+.loadMore.inativo {
+  display: none;
+}

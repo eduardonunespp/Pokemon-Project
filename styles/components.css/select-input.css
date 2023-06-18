@@ -1,0 +1,83 @@
+.select-input-type{
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 3rem;
+    flex-direction: column;
+    border-radius: .5rem;
+    margin-top: 30px;
+    background-color: #332d2d;
+    z-index: 50;
+}
+.arrow-down-select{
+    width: 1rem;
+}
+.type-selected{
+    display: flex;
+    align-items: center;
+    width: 7.5rem;
+    padding-left: .5rem;
+    text-align: start;
+}
+.type-selected img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
+}
+.select-button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    border-radius: .5rem;
+    background-color: #4A4747;
+}
+.select-input-type ul{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    background-color: #242420;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    height: 10rem;
+    width: 100%;
+    overflow-y: auto;
+}
+.select-input-type ul.active{
+    display: flex;
+    z-index: 0;
+}
+  
+  /* Works on Chrome, Edge, and Safari */
+  .select-input-type ul::-webkit-scrollbar {
+    width: .3rem;
+  }
+  
+  .select-input-type ul::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .select-input-type ul::-webkit-scrollbar-thumb {
+    background-color: #f33c3c3d;
+    border-radius: 20px;
+    border: none;
+  }
+.select-input-type ul li:hover{
+    background-color: #4A4747;
+    
+}
+.select-input-type ul li img{
+    height: 15px;
+}
+.select-input-type ul li{
+    padding: .7rem;
+    width: 100%;
+}
+.select-input-type img{
+    height: 30px;
+}

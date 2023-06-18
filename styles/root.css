@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #242020;
+  --bg-lighter: #4a4747;
+  --bg-card: #332d2d;
+  --gray-400: #4a4747;
+  --red: #f33c3cd8;
+  --type-bug: #9bba48;
+  --type-dark: #595761;
+  --type-dragon: #2c6ac1;
+  --type-electric: #d4bc34;
+  --type-fairy: #e296e1;
+  --type-fighting: #c44d61;
+  --type-ground: #ce8056;
+  --type-ice: #71baac;
+  --type-normal: #909090;
+  --type-poison: #ac6aca;
+  --type-psychic: #eb8b85;
+  --type-rock: #84beb3;
+  --type-ghost: #616eb7;
+  --type-grass: #73b861;
+  --type-steel: #6594a1;
+  --type-water: #4f77be;
+  --type-fire: #e96303;
+  --type-flying: #758cbd;
+  --blue-primary: #3f5db3;
+}
+.body-wrapper {
+  position: fixed;
+  overflow-x: hidden;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  color: #cec7c7f3;
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  background-color: #242020;
+  overflow-x: hidden;
+}

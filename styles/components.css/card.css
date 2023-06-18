@@ -1,0 +1,55 @@
+@import "./poke-img-mask.css";
+.card {
+  transition: ease-in-out 0.2s;
+  margin-top: 1.875rem;
+  position: relative;
+  width: 17.5rem;
+  height: 19rem;
+  background-color: --bg-color;
+  background: #332d2d;
+  box-shadow: 0px 10px 10px -5px #5a555573;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+.card .img-mask {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.card .img-background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  height: 11rem;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+.card .img-background img {
+  width: 9rem;
+  height: 8rem;
+}
+.card .card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  bottom: 16px;
+  margin-left: 30px;
+}
+.card .card-footer span {
+  position: relative;
+  font-size: 0.75rem;
+  margin-bottom: 0;
+}
+.card .card-footer h3 {
+  margin-top: 0.3rem;
+}
