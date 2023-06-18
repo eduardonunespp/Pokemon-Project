@@ -32,7 +32,7 @@
   <li>Clique no nome de um Pokémon para ver suas informações detalhadas.</li>
 </ol>
 
-<p> <bold>Ou</bold> Acesse: https://ivopenha.github.io/Pokemon-Project/ </p>
+<p> <bold>Ou</bold> Acesse: <strong>https://pokemon-project-bice.vercel.app</strong> </p>
 
 <h2>🤝 Como contribuir</h2>
 
