@@ -1,9 +1,15 @@
+
+<h1></h1>
+
+![image](https://github.com/eduardonunespp/Pokemon-Project/assets/100363170/fc16bf28-942b-4625-89fe-201a6c5ddc53)
+
+<h1></h1>
+
+<hr>
+
 <h1>Projeto Pokemon</h1>
 
-<p>Este é o README.md de um projeto frontend de uma Pokedex, desenvolvido com o objetivo de servir como um primeiro contato com a biblioteca Axios e entender conceitos básicos de backend, como a obtenção de rotas.</p>
-
-
-![CPT2306171325-1856x963.gif]
+Este é um projeto frontend da Pokedex, desenvolvido para servir como um primeiro contato com a biblioteca Axios e entender conceitos básicos de backend, como a obtenção de rotas. A Pokedex é uma enciclopédia digital que contém informações sobre diferentes espécies de Pokémon.
 
 <h2>🚀 Tecnologias utilizadas</h2>
 
@@ -16,6 +22,10 @@
   <div>
    <img style="block" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
  </div>
+
+<h2>🎯 Objetivos</h2>
+
+O objetivo deste projeto é criar uma interface amigável e interativa para visualizar informações sobre os Pokémon, obtidas por meio de requisições HTTP a uma API de backend. Os usuários poderão navegar pela lista de Pokémon, pesquisar por nome ou número, e ver detalhes sobre cada um deles.
 
 <h2>💻 Funcionalidades</h2>
 
